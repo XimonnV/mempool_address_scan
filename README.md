@@ -5,7 +5,10 @@ For example if you withdraw from a CEX, you typically don't receive a transactio
 # how to use
 ```
 ./chmod +x mempool_addr_scan.py 
-to test - look up a recent transaction, e.g. from https://mempool.space select the first upcoming block, select a transaction and copy a receiving or sending bitcoin address
+
+# to test - look up a recent transaction (which is not yet part of a committed block)
+# e.g. from https://mempool.space select the first upcoming block, select a transaction and copy a receiving or sending bitcoin address
+
 ./mempool_addr_scan.py --since 10m bc1pqte658tldm9r2pwm3d48t58q23dtpxrcq5wz25peyy2fdcdytnvq7tcxwv
 ```
 
