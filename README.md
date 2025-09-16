@@ -1,6 +1,7 @@
 # mempool_address_scan
-To find bitcoin transactions in the mempool of your bitcoin node, in case you don't have the transaction ID but only a receiving or sending Bitcoin address and you want to use your own bitcoin node to check if it has a transaction for the address in its mempool.
-For example if you withdraw from a CEX, you typically don't receive a transaction ID, but you do know your receiving address.
+To find (pending) bitcoin transactions in the mempool of your bitcoin node, in case you don't have the transaction ID but only a receiving or sending Bitcoin address and you want to use your own bitcoin node to check if it has a transaction for the address in its mempool.
+For example if you initiate a transaction on a third party platform, you typically don't receive a transaction ID, but you do know the receiving address.
+You could also just use https://mempool.space/ to look this up, but thats not the same fun as using a particular Bitcoin node.
 
 # how to use
 ```
