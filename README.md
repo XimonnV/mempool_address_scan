@@ -38,3 +38,6 @@ txid: 2e5b457f8b15955029ec1ec53476a1267cbdbe99121eedbe4357781e7a90b0c6
     receiving addresses:
       bc1plwyrnwdr4z5ktzqwew5c28j9382t7x0mw5xdvh7hkst4xvs66nrqksteg9: 0.00023520 BTC
 ```
+
+# notes
+Vibe coded by small team consisting of Grok4, ChatGPT5 and ClauseSonnet 4
