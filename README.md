@@ -13,6 +13,29 @@ You could also just use https://mempool.space/ to look this up, but thats not th
 ./mempool_addr_scan.py --since 10m bc1pqte658tldm9r2pwm3d48t58q23dtpxrcq5wz25peyy2fdcdytnvq7tcxwv
 ```
 
+# help
+```
+./mempool_addr_scan -h
+usage: mempool_addr_scan [-h] [--since SINCE] [--conf-dir CONF_DIR] address
+
+Scan Bitcoin mempool for transactions related to an address
+
+positional arguments:
+  address              Bitcoin address to scan for
+
+options:
+  -h, --help           show this help message and exit
+  --since SINCE        Only include transactions first seen within DURATION (e.g., 1h, 24h, 2d)
+  --conf-dir CONF_DIR  Bitcoin configuration directory
+
+Examples:
+  mempool_addr_scan bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
+  mempool_addr_scan --since 1h bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
+  mempool_addr_scan --since 24h bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
+
+Duration formats: 1h, 24h, 2d, 90m, 3600s
+```
+
 # example output:
 ```
 Scanning mempool for transactions related to address: bc1pqte658tldm9r2pwm3d48t58q23dtpxrcq5wz25peyy2fdcdytnvq7tcxwv
